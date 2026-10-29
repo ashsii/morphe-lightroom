@@ -1,4 +1,4 @@
-rootProject.name = "morphe-patches-template"
+rootProject.name = "morphe-lightroom"
 
 pluginManagement {
     repositories {
@@ -19,3 +19,6 @@ pluginManagement {
 plugins {
     id("app.morphe.patches") version "2.1.0-dev.1"
 }
+
+// No Android extension module is needed for this bundle.
+// Morphe discovers extension build scripts when its settings plugin is applied.
